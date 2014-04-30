@@ -2,9 +2,12 @@
 name=LayersByField
 description=Splits a layer into multiple layers based on a field
 category=Vector
-version=0.5
+version=0.6
 experimental=False
 qgisMinimumVersion=2.0
 author=James Stott
 email=jamesstott1@gmail.com
 icon=./icon.png
+
+tracker=http://hub.qgis.org/projects/layers-by-field
+repository=https://github.com/jamesstott/layers_by_field
