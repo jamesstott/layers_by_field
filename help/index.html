@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<title>Split Layers By Field</title>
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+<div class="document" id="split_layers_by_field_v0_5">
+<h1 class="title">Split Layers By Field Plugin(Version 0.5)</h1>
+<h1>How to use the plugin</h1>
+<p>To use the plugin need to select it from the Plugin Menu.</p>
+<p>The plugin will work out if any vector layers are open. If there are vector layers loaded into QGIS, the plugin will display a dialog like the one below:.</p> 
+<img alt="img/dialog.png" src="img/dialog.png" />
+<p>1. Shows a list of vector layers. Select the vector layer you would like to use.</p>
+<p>2. Shows the fields within the layer selected in 1. Select the field you would like to split by.</p>
+<p>3. Progress bar</p>
+<p>4. OK button. Select this to perform the operation.</p>
+<p>5. Close button. Select this to close the tool at any point.</p>
+<p>Once you push the OK button, the tool will add a layer for each unique value in the column you selected. WARNING, this may take some time if it is a layer with a lot of data in it.</p>
+</div>
+
+<div class="section" id="notes-and-versions">
+<h1>Version Information</h1>
+
+<ul class="simple">
+<li>0.1 - Initial version of the plugin.</li>
+<li>0.2 - Fix broken help link.</li>
+<li>0.5 - Fix problem where plugin only gave n-1 layers.</li>
+<li>0.5 - Added support for translating and a Norwegian translation.</li>
+</ul>
+</div>
+<div class="section" id="ideas-todo">
+<h1>Ideas/todo</h1>
+<ul class="simple">
+<li>Warn people about large numbers of records in tables,</li>
+<li>Tell people how many layers the tool will create. Maybe add a warning if this is a large number.</li>
+<li>Give users the opportunities to only load certain values from a column.</li>
+</ul>
+</div>
+<div class="section" id="and">
+<h1>Bugs and contact information</h1>
+<p>If you find bugs or have ideas for this plugin, contact James Stott ( <a class="reference external" href="mailto:jamesstott1&#64;gmail.com">jamesstott1&#64;gmail.com</a> ) or visit the plugins page on the QGIS Plugins website.</p>
+</div>
+</div>
+</body>
+</html>
